@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Itinerary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            grid-template-rows: repeat(2, minmax(0, 1fr));
+            gap: 1.5rem;
+        }
+        .box {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="p-8">
+    <div class="max-w-7xl mx-auto">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-8">10-Day Gangotri & Yamunotri Trip Itinerary</h1>
+        <div class="container">
+            <!-- Day 1 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 1: Friday, Sep 26</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Bangalore</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Dehradun</p>
+                <p class="text-sm text-gray-600 mb-2"><strong>Flight:</strong> Air India Express (IX-1051)</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 ml-2">
+                    <li>Departure: BLR at 12:50 hrs</li>
+                    <li>Arrival: DED at 16:00 hrs</li>
+                    <li>Duration: 3 hours, 10 minutes</li>
+                    <li>Passenger Seats: 25A, 25B</li>
+                    <li>Terminal: TBD</li>
+                </ul>
+                <p class="text-sm text-gray-600 mt-2"><strong>Stay:</strong> Hotel in Dehradun</p>
+                <p class="text-sm text-gray-600"><strong>Activities:</strong> Arrive, check into hotel, and spend the evening relaxing and preparing for the road trip.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Dehradun" target="_blank" class="hover:underline">View on Map</a></p>
+                <p class="text-sm text-blue-500 mt-2"><a href="https://www.google.com/maps/dir/Bangalore/Dehradun" target="_blank" class="hover:underline">View Route</a></p>
+            </div>
+            <!-- Day 2 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 2: Saturday, Sep 27</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Dehradun</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Dehradun</p>
+                <p class="text-sm text-gray-600 mt-2"><strong>Stay:</strong> Hotel in Dehradun</p>
+                <p class="text-sm text-gray-600"><strong>Activities:</strong> Explore the city of Dehradun. Visit Robber's Cave, Sahastradhara, or other local sights.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Dehradun" target="_blank" class="hover:underline">View on Map</a></p>
+            </div>
+            <!-- Day 3 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 3: Sunday, Sep 28</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Dehradun</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Janki Chatti</p>
+                <p class="text-sm text-gray-600 mb-2"><strong>Travel:</strong> Early morning drive by private sedan.</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 ml-2">
+                    <li>Distance: approx. 180 km</li>
+                    <li>Duration: 7-8 hours</li>
+                </ul>
+                <p class="text-sm text-gray-600 mt-2"><strong>Stay:</strong> Pre-booked accommodation in Janki Chatti</p>
+                <p class="text-sm text-gray-600"><strong>Activities:</strong> Enjoy a scenic drive through Mussoorie and other picturesque towns to reach the base for the Yamunotri trek.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Janki+Chatti" target="_blank" class="hover:underline">View on Map</a></p>
+                <p class="text-sm text-blue-500 mt-2"><a href="https://www.google.com/maps/dir/Dehradun/Janki+Chatti" target="_blank" class="hover:underline">View Route</a></p>
+            </div>
+            <!-- Day 4 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 4: Monday, Sep 29</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Janki Chatti</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Yamunotri Temple & Back</p>
+                <p class="text-sm text-gray-600 mb-2"><strong>Trek:</strong> 6 km one way trek</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 ml-2">
+                    <li>Duration: 3-4 hours one way</li>
+                </ul>
+                <p class="text-sm text-gray-600 mt-2"><strong>Stay:</strong> Janki Chatti</p>
+                <p class="text-sm text-gray-600"><strong>Places to See:</strong> Yamunotri Temple, Divya Shila, and Surya Kund.</p>
+                <p class="text-sm text-gray-600"><strong>Activities:</strong> Trek to the temple and return to Janki Chatti to rest completely.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Yamunotri+Temple" target="_blank" class="hover:underline">View on Map</a></p>
+                <p class="text-sm text-blue-500 mt-2"><a href="https://www.google.com/maps/dir/Janki+Chatti/Yamunotri+Temple" target="_blank" class="hover:underline">View Route</a></p>
+            </div>
+            <!-- Day 5 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 5: Tuesday, Sep 30</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Janki Chatti</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Uttarkashi</p>
+                <p class="text-sm text-gray-600 mb-2"><strong>Travel:</strong> Drive from Janki Chatti.</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 ml-2">
+                    <li>Distance: approx. 125 km</li>
+                    <li>Duration: 5-6 hours</li>
+                </ul>
+                <p class="text-sm text-gray-600 mt-2"><strong>Stay:</strong> Hotel in Uttarkashi</p>
+                <p class="text-sm text-gray-600"><strong>Places to See:</strong> Kashi Vishwanath Temple and the famous Shakti Temple with its 6-meter-tall Trishul.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Uttarkashi" target="_blank" class="hover:underline">View on Map</a></p>
+                <p class="text-sm text-blue-500 mt-2"><a href="https://www.google.com/maps/dir/Janki+Chatti/Uttarkashi" target="_blank" class="hover:underline">View Route</a></p>
+            </div>
+            <!-- Day 6 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 6: Wednesday, Oct 1</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Uttarkashi</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Gangotri & Back</p>
+                <p class="text-sm text-gray-600 mb-2"><strong>Travel:</strong> Drive from Uttarkashi.</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 ml-2">
+                    <li>Distance: approx. 100 km</li>
+                    <li>Duration: 4 hours</li>
+                </ul>
+                <p class="text-sm text-gray-600 mt-2"><strong>Stay:</strong> Hotel in Uttarkashi</p>
+                <p class="text-sm text-gray-600"><strong>Places to See:</strong> Gangotri Temple and the beautiful Harsil Valley on the way.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Gangotri" target="_blank" class="hover:underline">View on Map</a></p>
+                <p class="text-sm text-blue-500 mt-2"><a href="https://www.google.com/maps/dir/Uttarkashi/Gangotri" target="_blank" class="hover:underline">View Route</a></p>
+            </div>
+            <!-- Day 7 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 7: Thursday, Oct 2</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Uttarkashi</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Rishikesh</p>
+                <p class="text-sm text-gray-600 mb-2"><strong>Travel:</strong> Drive from Uttarkashi.</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 ml-2">
+                    <li>Distance: approx. 170 km</li>
+                    <li>Duration: 6-7 hours</li>
+                </ul>
+                <p class="text-sm text-gray-600 mt-2"><strong>Stay:</strong> Hotel in Rishikesh</p>
+                <p class="text-sm text-gray-600"><strong>Activities:</strong> Visit Vashishta Gufa, Laxman Jhula, and Ram Jhula. Attend the Ganga Aarti at Parmarth Niketan in the evening.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Rishikesh" target="_blank" class="hover:underline">View on Map</a></p>
+                <p class="text-sm text-blue-500 mt-2"><a href="https://www.google.com/maps/dir/Uttarkashi/Rishikesh" target="_blank" class="hover:underline">View Route</a></p>
+            </div>
+            <!-- Day 8 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 8: Friday, Oct 3</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Rishikesh</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Rishikesh</p>
+                <p class="text-sm text-gray-600"><strong>Stay:</strong> Hotel in Rishikesh</p>
+                <p class="text-sm text-gray-600 mt-2"><strong>Places to See:</strong> Lakshman Temple, Neelkanth Mahadev Temple, and Trimbakeshwar Temple.</p>
+                <p class="text-sm text-gray-600"><strong>Activities:</strong> Explore the spiritual city, enjoy adventure sports like rafting, or simply relax by the Ganga.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Rishikesh" target="_blank" class="hover:underline">View on Map</a></p>
+            </div>
+            <!-- Day 9 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 9: Saturday, Oct 4</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Rishikesh</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Delhi</p>
+                <p class="text-sm text-gray-600 mb-2"><strong>Travel:</strong> Private cab from Rishikesh.</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 ml-2">
+                    <li>Distance: approx. 250 km</li>
+                    <li>Duration: 5-6 hours</li>
+                </ul>
+                <p class="text-sm text-gray-600 mt-2"><strong>Stay:</strong> Hotel near Delhi airport or city center</p>
+                <p class="text-sm text-gray-600"><strong>Activities:</strong> Travel and check into your hotel to prepare for your departure the next day.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Delhi" target="_blank" class="hover:underline">View on Map</a></p>
+                <p class="text-sm text-blue-500 mt-2"><a href="https://www.google.com/maps/dir/Rishikesh/Delhi" target="_blank" class="hover:underline">View Route</a></p>
+            </div>
+            <!-- Day 10 -->
+            <div class="box">
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">Day 10: Sunday, Oct 5</h2>
+                <p class="text-sm text-gray-600"><strong>From:</strong> Delhi</p>
+                <p class="text-sm text-gray-600"><strong>To:</strong> Bangalore</p>
+                <p class="text-sm text-gray-600 mb-2"><strong>Flight:</strong> Air India (AI-2412)</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 ml-2">
+                    <li>Departure: DEL at 21:35 hrs</li>
+                    <li>Arrival: BLR at 00:30 hrs (on Monday, Oct 6)</li>
+                    <li>Duration: 2 hours, 55 minutes</li>
+                    <li>Passenger Seats: TBD</li>
+                    <li>Terminal: TBD</li>
+                </ul>
+                <p class="text-sm text-gray-600 mt-2"><strong>Activities:</strong> Conclude your trip and fly back home.</p>
+                <p class="text-sm text-blue-500 mt-4"><a href="https://www.google.com/maps/search/?api=1&query=Bangalore" target="_blank" class="hover:underline">View on Map</a></p>
+                <p class="text-sm text-blue-500 mt-2"><a href="https://www.google.com/maps/dir/Delhi/Bangalore" target="_blank" class="hover:underline">View Route</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
